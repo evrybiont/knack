@@ -1,1 +1,3 @@
 # knack
+
+JavaScript Image Gallery
