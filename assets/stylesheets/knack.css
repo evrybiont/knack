@@ -1,0 +1,64 @@
+.full {
+  margin:0; padding:0; height:100%; width:100%;
+}
+
+.super {
+  height:100% !important; width:100% !important;
+}
+
+#projector {
+  overflow: hidden;
+}
+
+.stage-area {
+  bottom: 25px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.menu-area {
+  background: black;
+  bottom: 0;
+  height: 25px;
+  position: absolute;
+  width: 100%;
+
+  -webkit-box-shadow: inset 1px 45px 9px -49px rgba(255,200,200,1);
+  -moz-box-shadow: inset 1px 45px 9px -49px rgba(255,200,200,1);
+  box-shadow: inset 1px 45px 9px -49px rgba(255,200,200,1);
+}
+
+.fullscreen {
+  background-image: url("fullscreen.png");
+  background-position: 6px 6px;
+  background-repeat: no-repeat;
+  box-shadow: inset 52px 0px 9px -57px rgba(255,200,200,1);
+  -webkit-box-shadow: inset 52px 0px 9px -55px rgba(255,200,200,1);
+  -moz-box-shadow: inset 52px 0px 9px -58px rgba(255,200,200,1);
+  cursor: pointer;
+  height: 25px;
+  left: auto;
+  position: absolute;
+  right: 0;
+  width: 25px;
+}
+
+.exit {
+  background-position: 6px -94px;
+}
+
+.on {
+  height: 100%;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  right: 0;
+}
+
+.off {
+  display: none;
+}
