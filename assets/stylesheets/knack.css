@@ -2,6 +2,10 @@
   margin:0; padding:0; height:100%; width:100%;
 }
 
+.hidden{
+  display: none;
+}
+
 .super {
   height:100% !important; width:100% !important;
 }
@@ -17,6 +21,40 @@
   position: absolute;
   right: 0;
   top: 0;
+}
+
+.arrows-area {
+  color: white;
+  display: flex;
+  height: 100px;
+  left: 0;
+  position: absolute;
+  top: 35%;
+  width: 100%;
+}
+
+.right-arrow {
+  background-image: url("arrows.png");
+  background-position: -39px -37px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  height: 34px;
+  margin-right: 25px;
+  margin-top: 35px;
+  position: absolute;
+  right: 0;
+  width: 34px;
+}
+
+.left-arrow {
+  background-image: url("arrows.png");
+  background-position: -1px -37px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  height: 34px;
+  margin-left: 25px;
+  margin-top: 35px;
+  width: 34px;
 }
 
 .menu-area {
