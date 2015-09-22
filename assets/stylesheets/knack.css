@@ -35,7 +35,7 @@
 
 .right-arrow {
   background-image: url("arrows.png");
-  background-position: -39px -37px;
+  background-position: -38px -37px;
   background-repeat: no-repeat;
   cursor: pointer;
   height: 34px;
@@ -99,4 +99,22 @@
 
 .off {
   display: none;
+}
+
+.counter {
+  color: #aaa;
+  font-family: Helvetica;
+  font-size: 13px;
+  box-shadow: inset -52px 0px 9px -57px rgba(255,200,200,1);
+  -webkit-box-shadow: inset -52px 0px 9px -55px rgba(255,200,200,1);
+  -moz-box-shadow: inset -52px 0px 9px -58px rgba(255,200,200,1);
+  height: 25px;
+  position: absolute;
+  left: 4px;
+  padding-right: 7px;
+}
+
+.current, .total {
+  position: relative;
+  top: 5px;
 }
