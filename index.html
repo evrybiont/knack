@@ -3,6 +3,21 @@
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="lib/knack.js"></script>
+  <script>
+    $(window).load(function(){
+      var images = [
+        "assets/images/hot-rod-dark.jpg",
+        "assets/images/hot-rod-style.jpg",
+        "assets/images/hot-rod.jpg",
+        "assets/images/1930-ford-model-a-hot-rod.jpg",
+        "assets/images/hot-rod-black.jpg",
+        "assets/images/Hot-Rod-for-sale.jpg",
+        "assets/images/Hot-Rod-Cars.jpg",
+        "assets/images/VOLKSWAGON_hot_rod_rods.jpg"
+      ];
+      $('#projector').knack({data: images});
+    });
+  </script>
   <link rel="stylesheet" type="text/css" href="assets/stylesheets/knack.css">
 
   <style type="text/css" media="screen">
