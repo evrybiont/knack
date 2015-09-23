@@ -6,6 +6,11 @@
   overflow: hidden;
 }
 
+#projector:-webkit-full-screen {
+  width: 100% !important;
+  height: 100% !important;
+}
+
 .stage-area {
   bottom: 25px;
   left: 0;
