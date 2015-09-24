@@ -122,8 +122,31 @@
   -moz-box-shadow: inset -52px 0px 9px -58px rgba(255,200,200,1);
   height: 25px;
   position: absolute;
-  left: 4px;
+  left: 22px;
   padding-right: 7px;
+}
+
+.play-box {
+  height: 25px;
+  left: 0;
+  position: absolute;
+  width: 25px
+}
+
+.play {
+  background-image: url("playpause.png");
+  background-position: 0 1px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  height: 13px;
+  left: 5px;
+  position: absolute;
+  top: 7px;
+  width: 8px;
+}
+
+.stop {
+  background-position: 0 -99px;
 }
 
 .current, .total {
