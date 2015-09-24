@@ -4,6 +4,7 @@
 
 #projector {
   overflow: hidden;
+  outline: none;
 }
 
 #projector:-webkit-full-screen {
