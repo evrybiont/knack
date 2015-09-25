@@ -146,6 +146,24 @@
   width: 8px;
 }
 
+.info-box {
+  height: 25px;
+  left: 65px;
+  position: absolute;
+  width: 70%;
+}
+
+.info {
+  font-family: Helvetica;
+  font-size: 13px;
+  color: #aaa;
+  position: relative;
+  top: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .stop {
   background-position: 0 -99px;
 }
