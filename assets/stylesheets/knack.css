@@ -3,6 +3,8 @@
 }
 
 #projector {
+  background: black;
+  position: relative;
   overflow: hidden;
   outline: none;
 }
@@ -21,7 +23,7 @@
   height: 100%;
   position: absolute;
   width: 100%;
-  z-index: 3;
+  z-index: 5;
 }
 
 .stage-area {
@@ -131,7 +133,7 @@
   height: 25px;
   left: 0;
   position: absolute;
-  width: 25px
+  width: 25px;
 }
 
 .play {
@@ -148,9 +150,8 @@
 
 .info-box {
   height: 25px;
-  left: 65px;
+  left: 61px;
   position: absolute;
-  width: 70%;
 }
 
 .info {
