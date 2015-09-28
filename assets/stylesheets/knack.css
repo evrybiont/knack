@@ -26,6 +26,29 @@
   z-index: 5;
 }
 
+.thumbs-area {
+  background: black;
+  bottom: 25px;
+  display: none;
+  float: left;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 10;
+}
+
+.thumb-image {
+  height: 50px;
+  float: left;
+  width: 100px;
+}
+
+.image {
+  height: 100%;
+}
+
 .stage-area {
   bottom: 25px;
   left: 0;
