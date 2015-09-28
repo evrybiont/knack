@@ -30,23 +30,34 @@
   background: black;
   bottom: 25px;
   display: none;
-  float: left;
-  left: 0;
   overflow: hidden;
   position: absolute;
-  right: 0;
   top: 0;
+  width: 100%;
   z-index: 10;
 }
 
 .thumb-image {
-  height: 50px;
-  float: left;
+  border: thin solid #222;
+  display: inline-flex;
+  height: 65px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  position: relative;
   width: 100px;
+}
+
+.thumbs-box {
+  height: 99%;
+  left: 2%;
+  position: relative;
+  top: 1%;
+  width: 96%;
 }
 
 .image {
   height: 100%;
+  width: 100%;
 }
 
 .stage-area {
@@ -170,7 +181,7 @@
 
 .info-box {
   height: 25px;
-  left: 61px;
+  left: 68px;
   position: absolute;
 }
 
@@ -214,4 +225,8 @@
 .current, .total {
   position: relative;
   top: 5px;
+}
+
+.active-thumb {
+  border: thin solid red;
 }
