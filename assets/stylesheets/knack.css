@@ -88,9 +88,6 @@
   background-image: url("fullscreen.png");
   background-position: 6px 6px;
   background-repeat: no-repeat;
-  box-shadow: inset 52px 0px 9px -57px rgba(255,200,200,1);
-  -webkit-box-shadow: inset 52px 0px 9px -55px rgba(255,200,200,1);
-  -moz-box-shadow: inset 52px 0px 9px -58px rgba(255,200,200,1);
   cursor: pointer;
   height: 25px;
   left: auto;
@@ -163,6 +160,28 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.thumb-box {
+  box-shadow: inset 52px 0px 9px -57px rgba(255,200,200,1);
+  -webkit-box-shadow: inset 52px 0px 9px -55px rgba(255,200,200,1);
+  -moz-box-shadow: inset 52px 0px 9px -58px rgba(255,200,200,1);
+  height: 25px;
+  right: 25px;
+  position: absolute;
+  width: 30px;
+}
+
+.thumb {
+  background-image: url("thumbs.png");
+  background-position: 0 1px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  height: 13px;
+  left: 9px;
+  position: absolute;
+  top: 6.3px;
+  width: 12px;
 }
 
 .stop {
