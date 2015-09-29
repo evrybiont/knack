@@ -2,7 +2,9 @@
 JavaScript Image Gallery
 [DEMO v=0.1](http://evrybiont.github.io/knack/)
 
-All you need to do is add div tag with 'projector' id and init it after loading page by jquery knak function. See example below.
+#Usage
+
+All you need to do is add div tag with 'projector' id and init it after loading page ended by jquery knak function. See example below.
 
 ```javascript
 <div id="projector"></div>
