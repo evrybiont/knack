@@ -159,7 +159,7 @@
   position: absolute;
   left: 22px;
   padding-right: 7px;
-  width: 40px;
+  width: 50px;
 }
 
 .play-box {
@@ -183,7 +183,7 @@
 
 .info-box {
   height: 25px;
-  left: 78px;
+  left: 84px;
   position: absolute;
 }
 
