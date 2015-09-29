@@ -4,10 +4,9 @@ JavaScript Image Gallery
 
 All you need to do is add div tag with 'projector' id and init it after loading page by jquery knak function. See example below.
 
-
+```javascript
 <div id="projector"></div>
 
-```javascript
 $(window).load(function(){
   var images = [
     ["image-url", "image-info"],
