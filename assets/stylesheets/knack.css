@@ -64,7 +64,7 @@
 }
 
 .stage-area {
-  bottom: 25px;
+  bottom: 0;
   left: 0;
   overflow: hidden;
   position: absolute;
