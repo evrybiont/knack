@@ -22,3 +22,5 @@ $(window).load(function(){
 
 
 Enjoy!
+
+If you have questions or found a bug? [Tweet at me](https://twitter.com/StadnikSasha)
