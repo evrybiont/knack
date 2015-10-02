@@ -48,8 +48,10 @@
 }
 
 .thumbs-box {
+  cursor: move;
   height: 99%;
   left: 2%;
+  overflow: hidden;
   position: relative;
   top: 1%;
   width: 96%;
