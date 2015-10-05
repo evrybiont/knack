@@ -85,8 +85,8 @@
 }
 
 .right-arrow {
-  background-image: url("arrows.png");
-  background-position: -38px -37px;
+  background-image: url("spritesheet.png");
+  background-position: -42px -42px;
   background-repeat: no-repeat;
   cursor: pointer;
   height: 34px;
@@ -98,8 +98,8 @@
 }
 
 .left-arrow {
-  background-image: url("arrows.png");
-  background-position: -1px -37px;
+  background-image: url("spritesheet.png");
+  background-position: -6px -42px;
   background-repeat: no-repeat;
   cursor: pointer;
   height: 34px;
@@ -122,8 +122,8 @@
 }
 
 .fullscreen {
-  background-image: url("fullscreen.png");
-  background-position: 6px 6px;
+  background-image: url("spritesheet.png");
+  background-position: -82px 2px;
   background-repeat: no-repeat;
   cursor: pointer;
   height: 25px;
@@ -134,7 +134,7 @@
 }
 
 .exit {
-  background-position: 6px -94px;
+  background-position: -82px -98px;
 }
 
 .on {
@@ -172,8 +172,8 @@
 }
 
 .play {
-  background-image: url("playpause.png");
-  background-position: 0 1px;
+  background-image: url("spritesheet.png");
+  background-position: -110px -4px;
   background-repeat: no-repeat;
   cursor: pointer;
   height: 13px;
@@ -211,14 +211,14 @@
 }
 
 .thumb {
-  background-image: url("thumbs.png");
-  background-position: 0 1px;
+  background-image: url("spritesheet.png");
+  background-position: -5px -125px;
   background-repeat: no-repeat;
   cursor: pointer;
   height: 13px;
   left: 9px;
   position: absolute;
-  top: 6.3px;
+  top: 7.3px;
   width: 12px;
 }
 
