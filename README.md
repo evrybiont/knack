@@ -1,6 +1,17 @@
 # knack
 JavaScript Image Gallery
-[DEMO v=0.1](http://evrybiont.github.io/knack/)
+[DEMO](http://evrybiont.github.io/knack/)
+
+#Installation
+
+Add images + css file from `knack/assets/stylesheets` + knack.js library to your project;
+Add don't forget set height and width for image galley see example below:
+```javascript
+  #projector{
+    height: 300px;
+    width: 500px;
+  }
+```
 
 #Usage
 
@@ -11,7 +22,7 @@ All you need to do is add div tag with 'projector' id and init it after loading 
 
 $(window).load(function(){
   var images = [
-    ["image-url", "image-info"],
+    /*["image-url", "image-info"]*/
     ["assets/images/hot-rod-style.jpg", "2 hot-rod-style"],
     ["assets/images/hot-rod-style.jpg"]
   ];
