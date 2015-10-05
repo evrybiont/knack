@@ -37,6 +37,10 @@
   z-index: 10;
 }
 
+.full-thumbs {
+  bottom: 0;
+}
+
 .thumb-image {
   border: thin solid #222;
   display: inline-flex;
@@ -118,7 +122,7 @@
   -webkit-box-shadow: inset 1px 45px 9px -49px rgba(255,200,200,1);
   -moz-box-shadow: inset 1px 45px 9px -49px rgba(255,200,200,1);
   box-shadow: inset 1px 45px 9px -49px rgba(255,200,200,1);
-  z-index: 4;
+  z-index: 11;
 }
 
 .fullscreen {
@@ -223,7 +227,7 @@
 }
 
 .stop {
-  background-position: 0 -99px;
+  background-position: -110px -104px;
 }
 
 .current, .total {
