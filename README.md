@@ -5,7 +5,7 @@ JavaScript Image Gallery
 #Installation
 
 Add images + css file from `knack/assets/stylesheets` + knack.js library to your project;
-Add don't forget set height and width for image galley see example below:
+Add don't forget set height and width for image gallery see example below:
 ```javascript
   #projector{
     height: 60%;
