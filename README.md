@@ -8,8 +8,8 @@ Add images + css file from `knack/assets/stylesheets` + knack.js library to your
 Add don't forget set height and width for image galley see example below:
 ```javascript
   #projector{
-    height: 300px;
-    width: 500px;
+    height: 60%;
+    width: 40%;
   }
 ```
 
