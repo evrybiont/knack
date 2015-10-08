@@ -5,13 +5,6 @@ JavaScript Image Gallery
 #Installation
 
 Add images + css file from `knack/assets/stylesheets` + knack.js library to your project;
-Add don't forget set height and width for image gallery see example below:
-```javascript
-  #projector{
-    height: 60%;
-    width: 40%;
-  }
-```
 
 #Usage
 
@@ -29,6 +22,14 @@ $(window).load(function(){
     
   $('#projector').knack({data: images});
 });
+```
+
+Add don't forget set default height and width for image gallery see example below:
+```javascript
+  #projector{
+    height: 60%;
+    width: 40%;
+  }
 ```
 
 
