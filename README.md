@@ -35,4 +35,6 @@ Add don't forget set default height and width for image gallery see example belo
 
 Enjoy!
 
+Ruby on Rails gem [knack-rails](https://github.com/evrybiont/knack-rails)
+
 If you have questions or found a bug? [Tweet at me](https://twitter.com/StadnikSasha)
